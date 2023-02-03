@@ -1,0 +1,45 @@
+.services{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+.boxservice{
+    position: relative;
+    height: 20rem;
+    background-color: black;
+    margin: 2px;
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border-radius: 1rem;
+   
+}
+.boxservice img{
+    width: 15rem;
+    height: 3rem;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    border-radius: 0.5rem;
+}
+#boxservice1{
+background:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(./ServiceWeProvideImages/dailyneeds.jpg);
+background-repeat: no-repeat;}
+#boxservice2{
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url(./ServiceWeProvideImages/construction.png);
+}
+#boxservice3{
+ background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url(./ServiceWeProvideImages/laundry.jpg);
+}
+#boxservice4{
+background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url(./ServiceWeProvideImages/household.png);
+}
+#boxservice5{
+background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url(./ServiceWeProvideImages/consultancy.png);
+}
+#boxservice6{
+background:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(./ServiceWeProvideImages/health.png);
+}

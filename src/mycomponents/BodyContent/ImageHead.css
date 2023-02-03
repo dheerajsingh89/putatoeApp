@@ -1,0 +1,16 @@
+.ImageHead{
+    padding: 2rem;
+   
+}
+.ImageHead img{
+    height: 28rem;
+}
+.carousel-indicators li {
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+ 
+}
+.carousel-indicators li .active{
+    background-color: white;
+}

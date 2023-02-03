@@ -1,0 +1,22 @@
+.boxxprat{
+    height: 20rem;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 0.01rem solid rgb(202, 200, 200);
+    border-radius: 1.5rem;
+    font-size: 1.5rem;
+
+}
+.txtprat{
+    height: 12rem;
+    width: 10vw;
+    font-size: 8rem;
+    background-color: rgb(31, 39, 62);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

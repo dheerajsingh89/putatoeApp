@@ -1,0 +1,43 @@
+/* 
+.height{
+
+    height: 100vh;
+} */
+.SearchbarNav{
+    background-color: rgb(16, 186, 186);
+    display: flex;
+    padding: 1.5rem;
+}
+.container {
+    height: auto;
+    width: 100vw;
+}
+
+.form {
+    position: relative;
+}
+
+.form .fa-search {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: #9ca3af;
+}
+.form-input {
+    height: 55px;
+    text-indent: 33px;
+    border-radius: 10px;
+}
+
+.form-input:focus {
+    box-shadow: none;
+    border: none;
+}
+.justify-content-center{
+    display: flex;
+    gap: 1rem;
+}
+.microphone_icon img{
+    height: 2.3rem;
+    filter: invert(100%);
+}

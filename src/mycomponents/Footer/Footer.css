@@ -1,0 +1,21 @@
+.Footer{
+    background-color:white;
+    padding: 1rem;
+    color:  rgb(16, 186, 186);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    font-size: 2rem;
+    font-weight: bold;
+} 
+.footer_icons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer_icons i{
+    font-size: 4rem;
+}
+.footer_icons img{
+    height: 5rem;
+}
